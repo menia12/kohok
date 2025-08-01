@@ -1,0 +1,23 @@
+name: kuhua
+ 
+on: 
+  workflow_dispatch:
+    inputs:
+      authcode:
+        description: 'masukin CRD codenya'
+        required: true
+ 
+jobs:
+  build:
+    runs-on: windows-latest
+ 
+    steps:
+    - uses: actions/checkout@v3
+    - name: Initializing Setup
+      run: cmd /c testing.bat
+    - name: downloads
+      run: ./masuk.ps1
+    - name: Time Counter
+      run: Start-Sleep -Seconds 18000
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
