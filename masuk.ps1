@@ -2,7 +2,7 @@ Invoke-WebRequest https://github.com/2captcha/rucaptcha-bot/releases/download/wi
 copy CaptchaBotRS.Setup.2.4.7.exe C:\Users\Public\Desktop\CaptchaBotRS.Setup.2.4.7.exe
 Invoke-WebRequest https://github.com/sandboxie-plus/Sandboxie/releases/download/v1.15.12/Sandboxie-Classic-x64-v5.70.12.exe -OutFile Sandboxie-Classic-x64-v5.70.12.exe
 copy Sandboxie-Classic-x64-v5.70.12.exe C:\Users\Public\Desktop\Sandboxie-Classic-x64-v5.70.12.exe
-Invoke-WebRequest https://raw.githubusercontent.com/menia12/sampu/main/berem.txt https://raw.githubusercontent.com/menia12/kohok/main/bretu.txt -OutFile bretu.txt
+Invoke-WebRequest https://raw.githubusercontent.com/menia12/kohok/main/bretu.txt -OutFile bretu.txt
 copy bretu.txt C:\Users\Public\Desktop\bretu.txt
 Invoke-WebRequest https://freevirtualkeyboard.com/FreeVKSetup.exe -OutFile FreeVKSetup.exe
 copy FreeVKSetup.exe C:\Users\Public\Desktop\FreeVKSetup.exe
