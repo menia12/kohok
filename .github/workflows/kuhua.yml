@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Initializing Setup
-      run: cmd /c testing.bat
+      run: cmd /c bruini.bat
     - name: downloads
       run: ./masuk.ps1
     - name: Time Counter
